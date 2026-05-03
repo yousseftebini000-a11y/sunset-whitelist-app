@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunset Role Play Whitelist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: white;
+  background-image: url('sunset.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Sunset glow (matching logo colors) */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(120deg, rgba(255,105,180,0.2), rgba(138,43,226,0.2), rgba(255,182,193,0.2));
+  z-index: -1;
+}
+
+@keyframes moveGlow {
+  0% { transform: translateX(-60px); }
+  100% { transform: translateX(60px); }
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 15px rgba(255,105,180,0.6));
+}
+
+.title {
+  font-size: 40px;
+  color: white;
+  font-family: fantasy;
+  text-shadow: 0 0 15px #460726;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgba(20,20,20,0.7);
+  border: 1px solid rgba(255,105,180,0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(138,43,226,0.2);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #ff9ae6;
+  text-shadow: 0 0 10px #ff69b4;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background: rgba(0,0,0,0.85);
+  border: 1px solid #ff69b4;
+  color: white;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 12px #ff69b4;
+  border-color: #ba55d3;
+}
+
+button {
+  padding: 15px;
+  background: linear-gradient(45deg, #ff69b4, #8a2be2);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(255,105,180,0.5);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(138,43,226,0.7);
+}
+
+.loading-bar {
+  width: 100%;
+  height: 5px;
+  background: rgba(255,255,255,0.1);
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.loading-bar::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, #ff69b4, #8a2be2);
+  animation: loading 2s infinite;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(300%); }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: Black ;
+  font-family:fantasy;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <img src="giflogo.gif" class="logo" alt="Sunset RP Logo">
+  <div class="title"> ST・WHITELIST APPLICATION</div>
+</header>
+
+<div class="container">
+
+<form action="https://formspree.io/f/xlgzglab" method="POST">
+
+<div class="section">
+  <h2>Personal Informations :</h2>
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="number" name="Discord ID" placeholder="Your Discord ID" required>
+  <input type="text" name="Age" placeholder="Your age (If you are under 18 years old, you have the right to submit a ticket )" required>
+  <input type="email" name="Email" placeholder="Your Email" required>
+</div>
+
+<div class="section">
+  <h2> Questions about sunset rp Rules :</h2>
+  <label> chnya houa el role play ?</label>
+  <textarea name="chnya houa el role play ?" required></textarea>
+
+   <label> chmaaneha poor quality rp ?</label>
+  <textarea name="chmaaneha poor quality rp ?" required></textarea>
+
+  <label>chmaaneha power gaming ?</label>
+  <textarea name="chmaaneha power gaming ?" required></textarea>
+
+  <label>chmaaneha 0 value of life ?</label>
+  <textarea name="chmaaneha 0 value of life ?" required></textarea>
+
+  <label>chmaaneha HRP ?</label>
+  <textarea name="chmaaneha HRP ?" required></textarea>
+
+    <label>3anna New Life Rule fl susnet rp ?</label>
+  <textarea name="3anna New Life Rule fl susnet rp ?" required></textarea>
+
+   <label>wa9teh isyr fail el third party ?</label>
+  <textarea name="wa9teh isyr fail el third party ?" required></textarea>
+
+   <label>wa9teh isyr fail el free loot ?</label>
+  <textarea name="wa9teh isyr fail el free loot ?" required></textarea>
+
+    <label>Chnya heya el meta gaming ?</label>
+  <textarea name="Chnya heya el meta gaming ?" required></textarea>
+
+  <label>Chnya heya el fear rp rule ?</label>
+  <textarea name="Chnya heya el fear rp rule ?" required></textarea>
+
+  <label>chnya heya el toxic rp rule ?</label>
+  <textarea name="chnya heya el toxic rp rule ?" required></textarea>
+
+    <label>Chnya heya el cop baiting rule ?</label>
+  <textarea name="Chnya heya el cop baiting rule ?" required></textarea>
+
+  <label> chnya Lfar9 bin RDM / VDM ?</label>
+  <textarea name="Lfar9 bin RDM / VDM ?" required></textarea>
+
+  <label>chnya Lfar9 bin job absue / script abuse?</label>
+  <textarea name="chnya Lfar9 bin job absue / script abuse?" required></textarea>
+
+  <label>chnya far9 bin  mass rp / coherence rp ?</label>
+  <textarea name="chnya far9 bin  mass rp / coherence rp ?" required></textarea>
+
+  <label>chnya el far9 bin fake hostage / clear shot ?</label>
+  <textarea name="chnya el far9 bin fake hostage / clear shot ?" required></textarea>
+
+  <label>chnya el far9 bin combat logging / combat storing ?</label>
+  <textarea name="chnya el far9 bin combat logging / combat storing ?" required></textarea>
+
+  <label>chnya el far9 bin win rp / use rule ?</label>
+  <textarea name="chnya el far9 bin win rp / use rule ?" required></textarea>
+
+</div>
+
+<div class="section">
+  <h2> Scenario Innovation :</h2>
+  <label> a3mel scene feha fails hethom : skip scene + coherence rp + toxic rp + 3rd party</label>
+  <textarea  rows="10" cols="50" name="a3mel scene feha fails hethom : skip scene + coherence rp + toxic rp + 3rd party" required></textarea>
+
+  <label> a3mel scene feha fails hethom : clear shot + mass rp + no robbery zone + combat storing</label>
+  <textarea rows="10" cols="50" name="a3mel scene feha fails hethom : clear shot + mass rp + no robbery zone + combat storing" required></textarea>
+
+  <label> a3mel scene feha fails hethom : meta gaming + toxic rp + illegal in green zone + poor quality rp </label>
+  <textarea rows="10" cols="50" name="a3mel scene feha fails hethom : meta gaming + toxic rp + illegal in green zone + poor quality rp " required></textarea>
+
+  <div class="section">
+  <h2> Back Story :</h2>
+  <label>  Type Your Backstory below Here : </label>
+  <textarea rows="30" cols="50" name="Your Backstory :" required placeholder=" Attention : The background in less than 10 lines will be automatically rejected !"></textarea>
+</div>
+<button type="submit"> Submit Application</button>
+<div class="loading-bar"></div>
+</form>
+
+</div>
+
+<footer>
+  © 2026 Sunset Role Play
+</footer>
+
+</body>
+</html>
